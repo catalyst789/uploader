@@ -1,0 +1,79 @@
+.background {
+  width: 35rem;
+  height: 20rem;
+  background-color: #fff;
+  border-radius: 1.5%;
+  box-shadow: 10px 5px 5px #00000022;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background p {
+  color: grey;
+  margin-top: 1rem;
+}
+
+.UploadBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  width: 11rem;
+  height: 2.2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+
+.videoUploadingActions{
+    width: 90%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+  box-shadow: 10px 5px 5px #00000022;
+}
+
+.ResumePause{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-right: 1px solid #00000062;
+    cursor: pointer;
+}
+
+.right{
+    margin-left: 1rem;
+    width: 80%;
+    /* background-color: #00d2ff; */
+}
+
+.Progress{
+    width: 100%;
+    padding: 0.7rem 0;
+}
+
+.stopUploading{
+    position: relative;
+    top: -45%;
+    right: -3%;
+    background-color: blue;
+  box-shadow: 10px 5px 5px #00000022;
+  border-radius: 999px;
+cursor: pointer;
+}
